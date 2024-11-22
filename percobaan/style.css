@@ -1,0 +1,175 @@
+body {
+  font-family: "inter", sans-serif;
+  background-color: #1c1c1c;
+  background-image: url(lofi.jpg);
+  background-size: cover;
+  background-repeat: repeat-x;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  backdrop-filter: blur(60px);
+  position: absolute;
+  width: 79%;
+  height: 55px;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar .logo h1 {
+  color: #ffffff;
+  font-size: 30px;
+}
+.judul {
+  color: #007dfc;
+  text-decoration: none;
+  margin: 0;
+  width: 10px;
+  
+}
+
+.navbar .navigation {
+  display: flex;
+  gap: 1rem;
+}
+.navbar .navigation li {
+  list-style-type: none;
+}
+.navbar .navigation li a {
+  color: #bdc3c7;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 300;
+  padding: 10px 20px;
+  border-radius: 99px;
+  transition: 150ms;
+}
+
+.navbar .navigation li a:hover {
+  background: #007dfc;
+  font-size: 20px;
+}
+
+.left {
+  color: #ffffff;
+}
+
+.id-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 60px;
+  width: 300px;
+  background-color: #1c1c1c;
+  border-radius: 60px;
+  box-shadow: 0 0 30px rgb(0, 0, 0.5);
+  overflow: hidden;
+  border: 5px solid transparent;
+  background-image: linear-gradient(#1c1c1c, #1c1c1c),
+    linear-gradient(to right, #4c68d7, #6b5b95);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.id-card .content {
+  padding: 30px;
+  text-align: center;
+}
+
+.id-card .profil-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url(kim\ dokja.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 0 0 50px rgba(76, 104, 215, 0.5),
+    0 0 100px rgba(107, 91, 149, 0.5);
+}
+
+.id-card .info h2 {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 300;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px rgba(76, 104, 215, 0.5),
+    0 100px 50px rgba(107, 91, 149, 0.5);
+}
+
+.id-card .info h4 {
+  color: #bdc3c7;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.id-card .info p {
+  color: #4c68d7;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.pengalaman {
+  font-size: 24px;
+}
+
+.id-card-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 120px;
+  margin-bottom: 120px;
+  width: 800px;
+  background-color: #1c1c1c;
+  border-radius: 60px;
+  box-shadow: 0 0 40px rgb(0, 0, 0.5);
+  overflow: hidden;
+  border: 4px solid transparent;
+  background-image: linear-gradient(#1c1c1c, #1c1c1c),
+    linear-gradient(to right, #4c68d7, #6b5b95);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.id-card-2 .content {
+  padding: 80px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.id-card-2 .info h2 {
+  color: #ffffff;
+  margin-bottom: px;
+  margin-top: 0px;
+  font-size: 28px;
+  text-shadow: 0 0 10px rgba(76, 104, 215, 0.5),
+    0 100px 50px rgba(107, 91, 149, 0.5);
+}
+
+.id-card-2 .info h4 {
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-size: 25px;
+  color: #007dfc;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.gambar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url(kim\ dokja.jpg);
+  margin-bottom: 50px;
+  background-size: cover;
+}
